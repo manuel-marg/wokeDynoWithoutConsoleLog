@@ -1,4 +1,6 @@
-# woke-dyno
+# woke-dyno-without-console-log
+
+Note: Only use this project if you want to avoid having your console so full with Fetches.
 
 There are some hosting services like Render.com that will allow you to host a server for free, but with some limitations. If it does not receive any web traffic for a set period of time, your free server will be put to sleep, leaving the next user to visit with a possibly long wait time (up to thirty seconds!) as your server starts up again. This is long enough for many users to assume the site is broken and move on. **woke-dyno** is a tiny utility to prevent your server from sleeping when not in use. 
 
@@ -83,7 +85,7 @@ Upon invoking the default export from **woke-dyno** with your chosen options, yo
 ---
 ## Credits
 
-**woke-dyno** was made by [Dennis Hodges](https://github.com/fermentationist), a JavaScript developer.
+**woke-dyno** was made by [Dennis Hodges](https://github.com/fermentationist), a JavaScript developer. Modified by Manuel Rodriguez to avoid having the console filled with so many console.logs in each Fetch.
 
 ---
 ## License
